@@ -14,6 +14,10 @@ Kill enemies quickly to gain stacks (max 25):
 
 Stacks last 5 seconds. Kill another enemy to refresh.
 
+## Install
+
+Install the mod via Thunderstore: [Click here](https://thunderstore.io/c/enter-the-gungeon/p/migueLLIDO/JacketAestheticOfVice/)
+
 ## Dependencies
 
 - BepInExPack
