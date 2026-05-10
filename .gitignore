@@ -1,0 +1,26 @@
+# Pastas compiladas
+bin/
+obj/
+Debug/
+Release/
+
+# Arquivos do Visual Studio
+.vs/
+*.suo
+*.user
+
+# Cache do .NET
+project.assets.json
+project.nuget.cache
+
+# Logs
+*.log
+errors.txt
+
+# DLLs
+*.dll
+*.pdb
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

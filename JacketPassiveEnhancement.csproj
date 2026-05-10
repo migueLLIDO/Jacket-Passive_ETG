@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <EmbeddedResource Include="src\icon.png" />  <!-- ADICIONE ESTA LINHA -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- UnityEngine - CORRETO -->
+    <Reference Include="UnityEngine">
+      <HintPath>lib\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+
+    <!-- DLLs do jogo -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>lib\Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+    <!-- BepInEx -->
+    <Reference Include="BepInEx">
+      <HintPath>lib\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>lib\0Harmony.dll</HintPath>
+    </Reference>
+
+    <!-- APIs de Modding -->
+    <Reference Include="Alexandria">
+      <HintPath>lib\Alexandria.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomCharacters">
+      <HintPath>lib\CustomCharacters.dll</HintPath>
+    </Reference>
+    <Reference Include="ModTheGungeonAPI">
+      <HintPath>lib\ModTheGungeonAPI.dll</HintPath>
+    </Reference>
+
+    
+
+    <!-- .NET -->
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

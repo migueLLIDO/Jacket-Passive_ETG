@@ -1,0 +1,11 @@
+{
+    "name": "JacketAestheticOfVice",
+    "version_number": "2.0.1",
+    "website_url": "https://github.com/migueLLIDO/Jacket-Passive_ETG",
+    "description": "Aesthetic of Vice – Passive for Jacket: gain stacks of damage, speed, and reload speed by killing enemies quickly. Getting hit resets everything! Hotline Miami style!"
+,
+    "dependencies": [
+        "BepInEx-BepInExPack_EtG-5.4.2101",
+        "totally_real_team-Jacket_CC-1.1.0"
+    ]
+}
